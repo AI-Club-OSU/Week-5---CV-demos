@@ -1,0 +1,5 @@
+# MediaPipe also installs opencv-contrib-python and numpy.
+# Don't add opencv-python: two copies of cv2 conflict.
+# Releases after 0.10.21 need Windows, Linux or an Apple Silicon Mac.
+# On an Intel Mac, pip picks 0.10.21 (use Python 3.9-3.12).
+mediapipe>=0.10.21
